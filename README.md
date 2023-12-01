@@ -2,7 +2,7 @@
 
 Support files for Unexpected Maker BLING!
 
-You can find out more about BLING! at https://unexpectedmaker.com/shop.html#!/BLING/p/596946493/category=0
+You can find out more about BLING! at https://unexpectedmaker.com/bling
 
 # Contents
 In this repo you'll find the following items:
