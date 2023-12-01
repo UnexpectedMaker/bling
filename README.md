@@ -17,7 +17,7 @@ Hires pinout reference cards
 STL and DXF files for both the short and long versions of the BLING case
 
 ## Example Firmware
-Currently just 1 project for SArduino, but more are on the way.
+Currently just 1 project for Arduino, but more are on the way.
 
 
 # Support Unexpected Maker
@@ -45,5 +45,3 @@ http://twitter.com/unexpectedmaker
 https://discord.gg/xAHpApP
 
 https://www.facebook.com/unexpectedmaker/
-
-https://www.instagram.com/unexpectedmaker/
