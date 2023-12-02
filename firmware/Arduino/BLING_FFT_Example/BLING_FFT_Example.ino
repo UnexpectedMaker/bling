@@ -139,7 +139,7 @@ void setup()
   i2s_driver_install(I2S_NUM_0, &i2s_config, 0, NULL);
   i2s_set_pin(I2S_NUM_0, &i2s_mic_pins);
 
-  matrix.setRotation(0);
+  matrix.setRotation(2);
   matrix.setTextColor(matrix.Color(255, 84, 255));
   matrix.fillScreen(0);
   matrix.setCursor(6, 0);
@@ -147,7 +147,8 @@ void setup()
   matrix.show();
 
   delay(1500);
-  matrix.setRotation(2);
+
+  matrix.setRotation(0);
 
   swipeClear();
 }
