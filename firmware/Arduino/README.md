@@ -52,4 +52,4 @@ In clock mode, long press this button to out your bling into DOWNLOAD MODE
 In settings mode, click this button to exit settings without saving
 
 ### TODO:
-Improve the clock & colon colors when cycling between 
+Improve the clock & colon color combinations
