@@ -7,7 +7,7 @@
 #include <Adafruit_GFX.h> // Library Manager
 #include <Adafruit_NeoMatrix.h> // Library Manager
 #include <Adafruit_NeoPixel.h> // Library Manager
-#include <RV3028C7.h> // Library Manager - RV-3028-C7 by Macro Yau
+#include <RV3028C7.h> // HitHub - https://github.com/UnexpectedMaker/RV-3028-C7-Arduino-Library
 
 #include "secret.h"
 #include "display.h"
