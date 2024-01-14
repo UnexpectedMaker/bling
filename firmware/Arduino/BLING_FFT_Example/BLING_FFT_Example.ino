@@ -148,8 +148,6 @@ void setup()
 
   delay(1500);
 
-  matrix.setRotation(0);
-
   swipeClear();
 }
 
@@ -290,24 +288,24 @@ void do_display()
 
     if ( visual_state == 0)
     {
-      matrix.fillRect(b * 5, 0, 4, bar, colors[b]);
+      matrix.fillRect(b * 5, 7, 4, -bar, colors[b]);
     }
     else if ( visual_state == 1)
     {
       bar = max((int)bar, 0);
-      matrix.fillRect(b * 5, bar, 4, 1, colors[b]);
+      matrix.fillRect(b * 5, 7-bar, 4, 1, colors[b]);
     }
     else if ( visual_state == 2)
     {
-      matrix.fillRect(b * 5, 0, 4, bar, matrix.Color(64 + (b * 16), 0, 0));
+      matrix.fillRect(b * 5, 7, 4, -bar, matrix.Color(64 + (b * 16), 0, 0));
     }
     else if ( visual_state == 3)
     {
-      matrix.fillRect(b * 5, 0, 4, bar, matrix.Color(0, 64 + (b * 16), 0));
+      matrix.fillRect(b * 5, 7, 4, -bar, matrix.Color(0, 64 + (b * 16), 0));
     }
     else if ( visual_state == 4)
     {
-      matrix.fillRect(b * 5, 0, 4, bar, matrix.Color(0, 0, 64 + (b * 16)));
+      matrix.fillRect(b * 5, 7, 4, -bar, matrix.Color(0, 0, 64 + (b * 16)));
     }
   }
 
@@ -323,12 +321,12 @@ void do_display_wide()
 
     if ( visual_state == 5)
     {
-      matrix.fillRect(4 + b * 2, 0, 1, bar, colorWheel(255 - (b * 12)));
+      matrix.fillRect(4 + b * 2, 7, 1, -bar, colorWheel(255 - (b * 12)));
     }
     else if ( visual_state == 6)
     {
       bar = max((int)bar, 0);
-      matrix.fillRect(4 + b * 2, bar, 2, 1, colorWheel(255 - (b * 12)));
+      matrix.fillRect(4 + b * 2, 7-bar, 2, 1, colorWheel(255 - (b * 12)));
     }
   }
 
